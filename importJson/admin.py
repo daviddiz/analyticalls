@@ -4,7 +4,6 @@ from django.core import management
 from django.shortcuts import redirect
 
 class RetreivedDataAdmin(admin.ModelAdmin):
-    #admin.site.register(RetreivedData)
 
     def import_data_from_url(self, request):
         print('import data here')
