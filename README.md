@@ -7,3 +7,6 @@ Se implementa una API mediante la django rest framework, las funciones de la api
     /api/importJson/:id: GET, PUT, DELETE    # GET data by pk (id), PUT new data, DELETE data
     /api/importJson/all: GET                 # GET all retreived data
     
+Para comenzar a obtener datos de la url mediante json cada minuto y guardarlos en la BBDD, basta con lanzar el comando "import_from_url":
+
+    python manage.py import_from_url
